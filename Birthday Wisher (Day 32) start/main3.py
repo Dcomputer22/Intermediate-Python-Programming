@@ -3,8 +3,8 @@ import datetime as dt
 from random import randint
 import smtplib
 
-MY_EMAIL = "dcomputer023@gmail.com"
-MY_PASSWORD = "rtpo kswj cqta sojp"
+MY_EMAIL = "myemail@gmail.com"
+MY_PASSWORD = "password"
 
 data = pandas.read_csv("birthdays.csv")
 data_row = data[data.name == "Zainab"]
